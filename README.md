@@ -11,7 +11,7 @@ Este script utiliza a biblioteca scapy, que deve ser instalada para que o script
 
 ```bash
 pip install scapy
-
+```
 ## Uso
 - **Configure as variáveis de rede**: Abra o script e ajuste os valores das variáveis target_ip, gateway_ip, e interface com os endereços IP e o nome da interface de rede adequados para seu ambiente.
 
