@@ -20,8 +20,8 @@ pip install scapy
 ## Código
 **O código inclui as seguintes funções**:
 
-- arp_poison(target_ip, gateway_ip, interface): Envia um pacote ARP spoofing para envenenar o cache ARP da vítima.
+- **arp_poison(target_ip, gateway_ip, interface)**: Envia um pacote ARP spoofing para envenenar o cache ARP da vítima.
 
-- get_mac(ip_address): Obtém o endereço MAC correspondente a um endereço IP usando um pacote ARP request.
+- **get_mac(ip_address)**: Obtém o endereço MAC correspondente a um endereço IP usando um pacote ARP request.
 
-- restore_target(target_ip, target_mac, gateway_ip, gateway_mac, interface): Restaura o cache ARP da vítima e do gateway após o término do ataque.
+- **restore_target(target_ip, target_mac, gateway_ip, gateway_mac, interface)**: Restaura o cache ARP da vítima e do gateway após o término do ataque.
