@@ -9,7 +9,7 @@ Este é um script em Python para realizar um ataque de ARP spoofing. O ataque de
 ## Dependências
 Este script utiliza a biblioteca scapy, que deve ser instalada para que o script funcione corretamente. Para instalar a biblioteca, você pode usar o seguinte comando:
 
-'''bash
+```bash
 pip install scapy
 
 ## Uso
