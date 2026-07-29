@@ -25,3 +25,7 @@ pip install scapy
 - **get_mac(ip_address)**: Obtém o endereço MAC correspondente a um endereço IP usando um pacote ARP request.
 
 - **restore_target(target_ip, target_mac, gateway_ip, gateway_mac, interface)**: Restaura o cache ARP da vítima e do gateway após o término do ataque.
+
+## Colaborador
+
+[@gaaleme](https://github.com/gaaleme)
